@@ -9,11 +9,13 @@ https://github.com/sindresorhus/capture-website
 
 So what do you have to do to install this app?
 Firstly, grab yourself a copy of Node.JS. This will also get you NPM, which is what we'll use to install the tools we need.
-From there; run these two commands:
+From there; run these three commands:
 
 1. npm install capture-website
 
-2. npm install fullpage-capture
+2. npm install prompt-sync
+
+3. npm install fullpage-capture
 
 And then you're all done. To use, simply execute by:
 
