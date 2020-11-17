@@ -21,4 +21,4 @@ And then you're all done. To use, simply execute by:
 
 node fullpage-capture
 
-Input your variables and bobs your uncle. A word of warning; I haven't implemented the ability for you to choose a default directory for the screenshots to end up in. For me, my screenshots end up in my user folder on macOS. Usually it'll end up somewhere similar for you. It's something I'll be focusing on in the next build.
+Input your variables and bobs your uncle. Upon initial startup, you'll need to set your default directory for where you want screenshots to go. Easiest way to do this is to find the folder you want to store your screenshots in and drag it into your terminal/command prompt window; it should grab the pathname and work from there.
