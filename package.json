@@ -1,0 +1,11 @@
+{
+  "name": "fullpage-capture",
+  "version": "1.0.0",
+  "description": "Written with the capture-website dependancy, this is a simple program that actually works.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Caylem Weeks",
+  "license": "ISC"
+}
