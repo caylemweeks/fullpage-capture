@@ -1,6 +1,6 @@
 {
   "name": "fullpage-capture",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Written with the capture-website dependancy, this is a simple program that actually works.",
   "main": "index.js",
   "scripts": {
