@@ -10,10 +10,13 @@ https://github.com/sindresorhus/capture-website
 So what do you have to do to install this app?
 Firstly, grab yourself a copy of Node.JS. This will also get you NPM, which is what we'll use to install the tools we need.
 From there; run these two commands:
-npm install capture-website
 
-npm install fullpage-capture
+1. npm install capture-website
+
+2. npm install fullpage-capture
 
 And then you're all done. To use, simply execute by:
+
 node fullpage-capture
+
 Input your variables and bobs your uncle. A word of warning; I haven't implemented the ability for you to choose a default directory for the screenshots to end up in. For me, my screenshots end up in my user folder on macOS. Usually it'll end up somewhere similar for you. It's something I'll be focusing on in the next build.
