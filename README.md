@@ -1,6 +1,8 @@
 # fullpage-capture
 An easy to use tool to capture a screenshot of a whole website.
+
 CURRENT VERSION: 1.0.3
+
 Note: ignore the version that github says; I'm a dingus and forgot to upload the readme to NPM so I had to create another version on there JUST FOR THAT.
 
 Have you ever wanted to capture an entire website as a screenshot, but gotten fed up with the lackluster support from dodgy extensions or third party apps? Maybe you've tried to install a few CLI applications, but they've just failed on you.
