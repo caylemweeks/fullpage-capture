@@ -21,6 +21,11 @@ From there; run these three commands:
 
 3. npm install fullpage-capture
 
+4. Navigate to your Home folder in macOS (I'm not 100% sure what to do with Windows), then go into the 'node_modules'folder. Find the fullpage-capture file and lift it out and into your Home folder. This ensures that Node knows the right place to look for this. I'll look to fix this in a future version.
+
+5. If you are getting pathname errors, check to make sure that there isn't a space after your path. To check for this, head into the fullpage-capture folder, then open the path.txt file. The file path should end in / instead of a space.
+e.g. /Users/caylemweeks/Documents/Editing/Screenshots/ instead of /Users/caylemweeks/Documents/Editing/Screenshots (there's a space at the end)./
+
 And then you're all done. To use, simply execute by:
 
 node fullpage-capture
