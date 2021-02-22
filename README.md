@@ -23,11 +23,12 @@ From there; run these three commands:
 
 4. Navigate to your Home folder in macOS (I'm not 100% sure what to do with Windows), then go into the 'node_modules'folder. Find the fullpage-capture file and lift it out and into your Home folder. This ensures that Node knows the right place to look for this. I'll look to fix this in a future version.
 
-5. If you are getting pathname errors, check to make sure that there isn't a space after your path. To check for this, head into the fullpage-capture folder, then open the path.txt file. The file path should end in / instead of a space.
-e.g. /Users/caylemweeks/Documents/Editing/Screenshots/ instead of /Users/caylemweeks/Documents/Editing/Screenshots (there's a space at the end)./
-
 And then you're all done. To use, simply execute by:
 
 node fullpage-capture
 
-Input your variables and bobs your uncle. Upon initial startup, you'll need to set your default directory for where you want screenshots to go. Easiest way to do this is to find the folder you want to store your screenshots in and drag it into your terminal/command prompt window; it should grab the pathname and work from there.
+Input your variables and bobs your uncle. Upon initial startup, you'll need to set your default directory for where you want screenshots to go. Easiest way to do this is to find the folder you want to store your screenshots in and drag it into your terminal/command prompt window; it should grab the pathname and work from there. 
+If you are getting pathname errors, check to make sure that there isn't a space after your path. To check for this, head into the fullpage-capture folder, then open the path.txt file. The file path should end in / instead of a space.
+e.g. /Users/caylemweeks/Documents/Editing/Screenshots/ instead of /Users/caylemweeks/Documents/Editing/Screenshots (there's a space at the end).
+
+Also, a sidenode; if you see errors at the end of execution, just check to see whether the screenshot has actually captured. 9/10 times it has, just ignore the error. I'll fix it eventually.
